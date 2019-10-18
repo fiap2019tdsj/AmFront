@@ -112,7 +112,7 @@ button:disabled:hover {
     cursor: not-allowed ;
     border: 1px solid #535467;
 }
-#pop-up-msg {
+#pop-up-nome, #pop-up-email, #pop-up-senha, #pop-up-repitaSenha {
     width: 100%;
     background-color: #ff886a;
     border-radius: 5px;
