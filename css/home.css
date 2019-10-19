@@ -4,6 +4,7 @@
     overflow: visible;
     top: 0px;
     background-color: #141526;
+    position: fixed;
 }
 .logo-topo{
     float: left;
@@ -32,6 +33,7 @@
     background-color: #141526;
     width: 1349px;
     margin: auto;
+    margin-top: 60px;;
 }
 .bloco-conteudo {
     float: left;
