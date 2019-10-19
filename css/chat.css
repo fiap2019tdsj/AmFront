@@ -7,6 +7,7 @@
     animation: grow .8s infinite;
     cursor: pointer;
     transition: 500ms;
+    transition-delay: 1000ms;
 }
 .caixa-chat:hover {
     height: 90px;
