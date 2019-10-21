@@ -38,16 +38,16 @@
 }
 .bloco-texto {
     float: left;
-    padding: 34px;
     width: 70.9%;
-    height: 430px;
+    height: 245px;
     background-color: #141526;
+    padding: 34px 34px 34px 34px;
 }
 .bloco-img {
     float: left;
     padding: 68px 10px 0px 10px;
     width: 22.5%;
-    height: 430px;
+    height: 245px;
     background-color: #141526;
 }
 .bloco-img img {
@@ -92,7 +92,7 @@ nav  .menu {
     margin-right: 15%;
     color: #141526;
     width: 100px;
-    background-color: #26273b;
+    background-color: #141526;
 
 }
 nav .menu{
@@ -109,8 +109,8 @@ nav {
     float: left;
 }
 nav ul {
-    background: linear-gradient(top, ##26273b );  
-    padding: 5px 10px;
+    background: linear-gradient(top, #141526 );  
+    padding: 1px 10px;
     list-style: none;
 	position: relative;
 	display: inline-table;
@@ -118,6 +118,7 @@ nav ul {
 }
 nav ul li {
     float: left;
+    cursor: pointer;
 }
 nav ul li:hover a {
     color: #fff;
@@ -130,12 +131,12 @@ nav ul ul li a {
     padding: 10px 5px;
     color: #141526;
 }	
-    nav ul ul li a:hover {
-        background: #b46cf2;
-    }   
-    nav ul ul ul {
-		position: absolute; left: 100%; top:0;
-	}
+nav ul ul li a:hover {
+    color: #1cbfff;
+}   
+nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
 
 .menu {
     list-style: none;

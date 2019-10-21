@@ -40,3 +40,25 @@ $("#fomCadastro").onchange(function() {
           $("#btnCadastrar").prop('disabled', true);
     }       
 });
+
+$.post(
+    "cadastroUsuario",
+    {
+        nome : nome,
+        email : email,
+        senha: senha,
+        repitaSenha: confirmarSenha
+    },
+    function(r){
+        if(r = "Ok"){
+            //div de sucesso
+            setTimeout(function() { 
+                location.reload(); 
+            }, 3000);
+        }else{
+            var div = document.getElementById("divErro");
+                
+            div.innerText = "Houve um erro no processamento dos dados. Caso o erro persista, favor entrar em contato com o o suporte";
+        }
+    }
+);

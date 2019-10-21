@@ -68,30 +68,30 @@
     </div>
     <div class="rodape">
         <div class="centraliza-rodape">
+            <input type="hidden" id="hPergunta" />
             <p>Ratel Dev.</p>
         </div>
     </div>
-    <section class="container">
-            <h2 class="title">Chatbot Example w/ Watson API and Java</h2>
-            <div class="chat-container"></div>
-            <input type="text" id="question" name="question" class="field"
-                placeholder="Type your question or message to convert in audio" />
-            <div class="controls">
-                <button id="sendQuestion">Send</button>
-                <button id="getVoiceButton">Get Voice</button>
-                <button id="recordButton">Record</button>
-                <button id="pauseButton" disabled>Pause</button>
-                <button id="stopButton" disabled>Stop</button>
-            </div>
-        </section>
-        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
-        <!-- Para a versão dois utilizar o script main.js -->
-        <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript" src="js/assistant.js"></script>
-        <script type="text/javascript" src="js/tts.js"></script>
-        <script type="text/javascript" src="js/stt.js"></script>
+    <!-- chatbot -->
+    
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <!-- Para a versão dois utilizar o script main.js -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/assistant.js"></script>
+    <script type="text/javascript" src="js/tts.js"></script>
+    <script type="text/javascript" src="js/stt.js"></script>
+    <!-- chatbot fim -->
     <div class="caixa-chat">
-        <img src="img/ratel.png">
+        <!-- <img src="img/ratel.png"> -->
+        <section class="container">
+                <h2 class="title">Em que posso ajudar?</h2>
+                <div class="chat-container"></div>
+                <div class="controls">
+                    <button id="recordButton"><i class="material-icons">mic</i></button>
+                    <button id="pauseButton" disabled><i class="material-icons">pause</i></button>
+                    <button id="stopButton" disabled><i class="material-icons">stop</i></button>
+                </div>
+            </section>
     </div>
 </body>
 </html>
